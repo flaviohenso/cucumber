@@ -10,7 +10,7 @@ import io.cucumber.junit.CucumberOptions.SnippetType;
 @CucumberOptions(
 		plugin = "pretty",
 		snippets = SnippetType.CAMELCASE,
-		dryRun = true //valida o teste antes de executar
+		dryRun = false //valida o teste antes de executar
 		)
 public class Runner {
 
